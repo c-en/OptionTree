@@ -168,10 +168,10 @@ class TrinOption(Option):
     def value(self):
         return self.pricetree()[0]
 
-
-divs = [('4/19/2018',2),('4/19/2000',1000)]
-testInfo = {'divs':divs, 'today':'1/19/2018','type':'call','price':50,
-            'strike':50,'vola':0.4,'expi':'5/19/2018','rfr':0.09,'periods':200}
-testOp = BinOption(testInfo)
-print testOp.value()
+# Example data
+# divs = [('4/19/2018',2),('4/21/2018',2)]
+# testInfo = {'divs':divs, 'today':'1/19/2018','type':'call','price':50,
+#             'strike':50,'vola':0.4,'expi':'5/19/2018','rfr':0.09,'periods':200}
+# testOp = BinOption(testInfo)
+# print testOp.value()
 
